@@ -1,83 +1,84 @@
-# Resume Conversion Project
+# Resume Conversion Tool
 
-This project contains tools for managing and converting resumes in Markdown format to PDF. It includes my own CV as an example implementation.
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9-green.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
-## Rationale
+A streamlined tool for converting professional resumes from Markdown to PDF format, maintaining version control and consistent formatting.
 
-The project was created with the following principles in mind:
+## Overview
 
-1. **Simplicity**: Using Markdown as the base format provides a clean, maintainable, and version-controlled way to manage resume content.
+This project provides a simple yet powerful system to manage and convert professional resumes. By using Markdown as the source format, it combines the benefits of:
 
-2. **Version Control**: By storing the resume in Markdown format under Git, we can track changes, maintain different versions, and collaborate more effectively.
+- **Version control**: Track changes and maintain resume history
+- **Simple editing**: Update content without wrestling with formatting
+- **Professional output**: Generate polished PDFs with consistent styling
+- **Multiple versions**: Maintain both detailed and summary versions from the same source
 
-3. **Automation**: The Python script provides a simple way to convert the Markdown resume to PDF, eliminating the need for manual formatting.
+## Features
 
-4. **Consistency**: Using a basic, standardized format ensures the resume looks professional without getting bogged down in complex templates or design tools.
+- Convert Markdown resumes to professionally formatted PDFs
+- Maintain two versions (detailed and summary) with consistent styling
+- Customize PDF output with professional typography and margins
+- Simple command-line interface for easy conversion
+- Cross-platform compatibility (Windows, macOS, Linux)
 
-5. **Flexibility**: Maintaining two versions of the resume:
-   - A complete, detailed version for comprehensive review
-   - A concise, one-page version for quick scanning
-     This allows the recipient to choose which version to review based on their needs.
+## Prerequisites
 
-## Project Structure
-
-- `_Marius_Mihail_Ion_Resume_Short.md`: Short version of my resume (example)
-- `_Marius_Mihail_Ion_Resume_Complete.md`: Complete version of my resume (example)
-- `convert_resumes.py`: Main conversion script
-- `environment.yml`: Conda environment configuration
-
-## Requirements
-
+- Python 3.9 or higher
 - Conda (Miniconda or Anaconda)
 - LaTeX (for PDF conversion)
 
 ## Installation
 
-### For All Systems
+### 1. Clone the repository
 
-1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/resume-converter.git
+cd resume-converter
+```
 
-   ```bash
-   git clone https://github.com/mihailmariusiondev/resume-converter.git
-   cd resume-converter
-   ```
+### 2. Set up the environment
 
-2. Create and activate the conda environment:
+```bash
+conda env create -f environment.yml
+conda activate resume-converter
+```
 
-   ```bash
-   conda env create -f environment.yml
-   conda activate resume-converter
-   ```
+### 3. Install LaTeX (Platform-specific)
 
-### Windows Specific Installation
+#### Windows
 
-1. Install LaTeX:
+- Download and install [MiKTeX](https://miktex.org/download)
+- During installation:
+  - Set "Install missing packages on the fly" to Yes
+  - Set "Always install missing packages" to Yes
+- Add MiKTeX to your system PATH:
+  1. Open System Properties → Advanced → Environment Variables
+  2. Add the path to MiKTeX bin folder (e.g., `C:\Program Files\MiKTeX\miktex\bin\x64\`)
 
-   - Download and install MiKTeX: https://miktex.org/download
-   - During installation, select:
-     - "Install missing packages on the fly" to Yes
-     - "Always install missing packages" to Yes
-   - Add MiKTeX to your system PATH:
-     1. Right-click on "This PC" and select "Properties"
-     2. Click "Advanced system settings"
-     3. Click "Environment Variables"
-     4. In "System variables", find "Path" and click "Edit"
-     5. Add the path to MiKTeX's bin folder (e.g., `C:\Program Files\MiKTeX 2.9\miktex\bin\x64\`)
+#### macOS
 
-2. Verify LaTeX installation:
-   ```bash
-   xelatex --version
-   ```
+```bash
+brew install --cask mactex
+```
 
-### Linux/macOS Installation
+#### Linux (Ubuntu/Debian)
 
-1. Install LaTeX:
-   - On Ubuntu: `sudo apt-get install texlive-xetex`
-   - On macOS: `brew install --cask mactex`
+```bash
+sudo apt-get install texlive-xetex texlive-fonts-recommended
+```
+
+### 4. Verify installation
+
+```bash
+xelatex --version
+python -c "import pypandoc; print(pypandoc.__version__)"
+```
 
 ## Usage
 
-To convert the resumes to PDF:
+### Converting Resumes
 
 ```bash
 python convert_resumes.py
@@ -85,17 +86,74 @@ python convert_resumes.py
 
 This will generate:
 
-- \_Marius_Mihail_Ion_Summary_Resume.pdf
-- \_Marius_Mihail_Ion_Detailed_Resume.pdf
+- `_Marius_Mihail_Ion_Summary_Resume.pdf` (concise version)
+- `_Marius_Mihail_Ion_Detailed_Resume.pdf` (comprehensive version)
 
-## Customization
+### Creating Your Own Resumes
 
-To use your own resumes:
+1. Create two Markdown files:
 
-1. Rename your markdown files to:
-   - `_Marius_Mihail_Ion_Resume_Short.md` for the short version
-   - `_Marius_Mihail_Ion_Resume_Complete.md` for the complete version
-2. Place them in the project root
+   - `_Your_Name_Resume_Short.md` - A concise, one-page resume
+   - `_Your_Name_Resume_Complete.md` - A detailed, comprehensive resume
+
+2. Edit the `convert_resumes.py` script to update the file mappings:
+
+   ```python
+   # Map input filenames to output names
+   output_names = {
+       "_Your_Name_Resume_Short": "_Your_Name_Summary_Resume",
+       "_Your_Name_Resume_Complete": "_Your_Name_Detailed_Resume",
+   }
+   ```
+
+3. Run the conversion script as described above
+
+## Customizing PDF Output
+
+You can customize the PDF appearance by modifying the `extra_args` in `convert_resumes.py`:
+
+```python
+extra_args=[
+    "--pdf-engine=xelatex",
+    "-V", "geometry:left=0.5in,right=0.4in,top=0.4in,bottom=0.5in",
+    "-V", "mainfont:Arial",  # Change font
+    "-V", "fontsize=11pt",   # Change font size
+    "-V", "colorlinks=true",
+    "-V", "linkcolor=blue",
+    "-V", "urlcolor=blue",
+]
+```
+
+## Example Resume Structure
+
+### Short Version
+
+- Professional summary (2-3 sentences)
+- Key skills (bullet points)
+- Work experience (most recent 3-4 positions)
+- Education and certifications (condensed)
+- Contact information
+
+### Complete Version
+
+- Detailed professional summary
+- Comprehensive skills section
+- Full work history with achievements
+- Detailed project descriptions
+- Complete education and certification history
+- Additional sections (publications, languages, etc.)
+
+## Troubleshooting
+
+### Common Issues
+
+- **Missing LaTeX packages**: If you encounter errors about missing LaTeX packages, ensure you've installed the full LaTeX distribution or set MiKTeX to install packages on-the-fly
+- **pypandoc errors**: Verify pypandoc is correctly installed in your environment with `pip show pypandoc`
+- **PDF generation fails**: Check that xelatex is in your PATH with `which xelatex` (Unix/macOS) or `where xelatex` (Windows)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
