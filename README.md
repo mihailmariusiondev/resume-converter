@@ -33,6 +33,8 @@ The project was created with the following principles in mind:
 
 ## Installation
 
+### For All Systems
+
 1. Clone the repository:
 
    ```bash
@@ -47,7 +49,29 @@ The project was created with the following principles in mind:
    conda activate resume-converter
    ```
 
-3. Install LaTeX (required for PDF conversion):
+### Windows Specific Installation
+
+1. Install LaTeX:
+
+   - Download and install MiKTeX: https://miktex.org/download
+   - During installation, select:
+     - "Install missing packages on the fly" to Yes
+     - "Always install missing packages" to Yes
+   - Add MiKTeX to your system PATH:
+     1. Right-click on "This PC" and select "Properties"
+     2. Click "Advanced system settings"
+     3. Click "Environment Variables"
+     4. In "System variables", find "Path" and click "Edit"
+     5. Add the path to MiKTeX's bin folder (e.g., `C:\Program Files\MiKTeX 2.9\miktex\bin\x64\`)
+
+2. Verify LaTeX installation:
+   ```bash
+   xelatex --version
+   ```
+
+### Linux/macOS Installation
+
+1. Install LaTeX:
    - On Ubuntu: `sudo apt-get install texlive-xetex`
    - On macOS: `brew install --cask mactex`
 
