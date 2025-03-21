@@ -91,15 +91,28 @@ _Custom WordPress development and digital optimization_
 
 ## Technical Skills
 
-- **Core Front-End Technologies:** Angular (13+), React (16+), TypeScript, JavaScript (ES6+)
-- **State Management & Reactive Programming:** RxJS, Redux Toolkit, React Hooks, Promises
-- **Web Fundamentals:** HTML5, CSS3/SCSS/SASS, Responsive Design
-- **Architectural Patterns & Scalability:** Monorepo (NX), Scalable Component Design
-- **UI Frameworks & Libraries:** Angular Material, Material UI, Bootstrap, Flex Layout, Storybook, Figma, Enterprise Design Systems
-- **Testing & Quality Assurance:** Unit Testing (Karma, Jasmine, Jest), SonarQube, ESLint, Prettier, Fortify, Code Quality Metrics
-- **Development Tools & Environments:** Git (Gitflow), VS Code, Angular CLI, REST API Integration (Swagger), CI/CD (Jenkins, GitHub Actions), Nexus, npm, yarn
-- **AI & Productivity Tools:** ChatGPT (OpenAI), Cursor IDE, GitHub Copilot, Microsoft 365 Copilot, AI Studio (Google Gemini), Claude (Anthropic)
-- **Methodologies & Principles:** Agile/Scrum, JIRA, Confluence, Clean Code (SOLID, DRY, KISS), Design Patterns
+- **Angular:** Angular 13+, Angular Material, Angular CLI, Modules, Components, Services, Directives (Structural/Attribute), Pipes (Built-in/Custom), Dependency Injection, Routing (Router Module, Guards, Resolvers), Template-driven Forms, Reactive Forms, Change Detection Strategies, HttpClient, Interceptors, @ViewChild/@ContentChild, Lifecycle Hooks, Lazy Loading, Content Projection, HostBinding/HostListener, Custom Validators, Route Parameters, ActivatedRoute, Router Events, Environment Configurations, Angular Schematics, ng-container/ng-template
+- **JavaScript/TypeScript:** ES6+, TypeScript 4+, Strict Typing
+- **Reactive Programming:** RxJS (Observables, Subjects, Operators), Advanced Stream Manipulation, Error Handling, Async Pipe, Custom Operators
+- **UI Development:** Component-Driven Architecture, Dynamic Components, Custom Directives, Component-Driven Design, Scalable UI Systems, Performance Optimization, Accessibility (WCAG Compliance), Responsive Design (Flexbox/Grid)
+
+- **Monorepo Architecture:** NX Workspace, NX Console, Code Sharing, Dependency Graph Analysis, Affected Commands, Modular Code Structure, Shared Libraries, Library Organization, Lazy Loading, Optimize Build Performance
+- **Code Quality & Performance:** SOLID Principles, Clean Code Practices, Performance Optimization (Lazy Loading, Change Detection Strategies), Clean Architecture, Performance Profiling, Technical Debt Mitigation
+- **Enterprise Design Patterns:** Dependency Injection, Facade, Domain-Driven Design, Mediator
+- **Design Systems:** Component Libraries, Atomic Design Principles, Theming, Custom UI Components, Component Hierarchies, Atomic Design Methodology, Maintainable Theme Solutions, Theme Injection, Token-Based Theming
+
+- **React Ecosystem:** React 16+, Hooks, Context API, Redux Toolkit, React Router, State Management Libraries, Suspense
+- **CSS Preprocessors & Methodologies:** SCSS/SASS, CSS Modules, Styled Components, CSS Grid, Flexbox, Advanced Nesting, Advanced Layout Systems
+- **UI Frameworks & Libraries:** Bootstrap, Material UI, Tailwind CSS, PrimeNG, Chart.js (if applicable), Custom Theme Integration
+- **Unit Testing:** Jest, Karma, Jasmine, Mocking Strategies, Component Testing, Testing Library
+- **Quality & Analysis Tools:** SonarQube, ESLint, Prettier, Code Coverage Analysis, Static Code Analysis, Linting Configurations, Tree Shaking, Code Splitting, Memory Leak Prevention
+- **Security:** Security Best Practices, Fortify (or similar tools), Authentication/Authorization, Authentication Flows, Fortify Integration, Input Validation, CORS Configuration, Input Sanitization
+- **Version Control:** Git, Gitflow, Feature Branching, Pull Requests, Code Reviews, Merge Conflict Resolution, Branch Protection Strategies, Code Review Protocols, Gitflow Implementation
+- **CI/CD:** Jenkins, Azure DevOps, TeamCity, GitHub Actions, Automated Build, Test, and Deployment Pipelines, Automated Testing & Deployment, Environment Management, Azure DevOps Pipelines
+- **APIs:** RESTful APIs, Swagger/OpenAPI, API Design Principles, HTTP/HTTPS, RESTful Service Architecture, API Consumption Patterns, Error Handling, Interceptors
+- **AI-Assisted Development:** GitHub Copilot, ChatGPT, Microsoft Copilot, Cursor, AI-Powered Code Completion, Pair Programming with AI, Automated Documentation, AI-Driven Refactoring
+- **Productivity & IDE:** VS Code, Advanced Debugging, Refactoring Tools, Extensions, VS Code Optimization, Custom Extensions, Productivity Shortcuts
+- **Collaboration & Project Management:** JIRA, Confluence, Notion, Slack, Microsoft Teams, Agile Methodologies, JIRA Project Management, Cross-functional Communication, JIRA Advanced Roadmaps, Azure Boards
 
 ## Certifications
 
