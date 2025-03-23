@@ -8,14 +8,8 @@ def convert_resume(input_file):
         # Get the filename without extension
         base_name = os.path.splitext(input_file)[0]
 
-        # Map input filenames to output names
-        output_names = {
-            "_Marius_Mihail_Ion_Resume_Short": "_Marius_Mihail_Ion_Summary_Resume",
-            "_Marius_Mihail_Ion_Resume_Complete": "_Marius_Mihail_Ion_Detailed_Resume",
-        }
-
-        # Get the corresponding output name
-        output_file = output_names.get(base_name, base_name) + ".pdf"
+        # Create output filename with .pdf extension
+        output_file = base_name + ".pdf"
 
         # Convert markdown to PDF using pandoc
         pypandoc.convert_file(
