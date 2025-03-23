@@ -13,6 +13,7 @@ Highly proficient Senior Front-End Developer with 7+ years of experience special
 ### Avanade Spain
 
 **Senior Front-End Analyst (Angular)** | March 2024 - Present | Madrid, Spain
+
 _Technical leadership in Angular-based enterprise solutions_
 
 - Leading front-end development and technical direction for client projects, focusing on Angular and scalable architectures.
@@ -22,7 +23,7 @@ _Technical leadership in Angular-based enterprise solutions_
 - Focused on code quality, performance optimization, and security, delivering robust applications.
 - Implemented NX monorepo architecture, enhancing code sharing and maintainability in large projects.
 
-  **Key Achievement: UNIR 'Mateo' Platform Technical Lead**
+**Key Achievement: UNIR 'Mateo' Platform Technical Lead**
 
 - Led front-end development of a critical Backoffice app, improving code quality and collaboration.
 - Defined scalable architecture with modern patterns for long-term maintainability.
@@ -32,6 +33,7 @@ _Technical leadership in Angular-based enterprise solutions_
 ### Vermont Solutions
 
 **Senior Front-End Developer (Angular)** | January 2023 - March 2024 | Madrid, Spain
+
 _Specialized in Spanish banking sector applications_
 
 - Led Angular projects, guiding teams of up to 5 developers with technical expertise.
@@ -39,7 +41,9 @@ _Specialized in Spanish banking sector applications_
 - Ensured high code quality via unit testing and static analysis, reducing technical debt.
 - Worked with UX/UI designers to turn Figma designs into pixel-perfect Angular components.
 - Integrated REST APIs with strong security practices across development cycles.
+
   **Notable Projects:**
+
 - _Santander Transaction Portal:_ Developed real-time monitoring, cut response time by 35%.
 - _Mobile Banking App:_ Led team of 5 to build employee transaction management app.
 - _Real Estate Portal:_ Improved team management and communication for Santander portal.
@@ -47,6 +51,7 @@ _Specialized in Spanish banking sector applications_
 ### CloudAPPi
 
 **Mid-Level Front-End Developer (Angular, React)** | November 2022 - December 2022 | Madrid, Spain
+
 _Rapid adaptation to Angular and React frameworks_
 
 - Adapted quickly to React and Angular, contributing to multiple fast-paced projects.
@@ -60,6 +65,7 @@ _Rapid adaptation to Angular and React frameworks_
 ### ENZO
 
 **Mid-Level Front-End Developer (Angular)** | July 2021 - October 2022 | Madrid, Spain
+
 _Focused on reusable Angular solutions for agriculture sector_
 
 - Built reusable Angular components for a large-scale agricultural sector application.
@@ -73,6 +79,7 @@ _Focused on reusable Angular solutions for agriculture sector_
 ### Freelance Web Developer
 
 **WordPress Developer** | July 2020 - June 2021 | Remote
+
 _Custom WordPress development and digital optimization_
 
 - Designed custom WordPress sites, expanding technical and client management skills.
