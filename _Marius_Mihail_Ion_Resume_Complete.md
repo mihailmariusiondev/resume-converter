@@ -96,6 +96,28 @@ _Custom WordPress development and digital optimization_
 - **IO Digital:** Mid-Level Full Stack Developer (.NET), December 2018 - October 2019
 - **STRATESYS:** Junior Full Stack Developer (.NET), July 2018 - November 2018
 
+## Projects
+
+**Al-Grano Telegram Summarization Bot**
+A powerful Telegram bot that helps users summarize various types of content using OpenAI's language models.
+[GitHub](https://github.com/mihailmariusiondev/al-grano-bot)
+
+**PixelProphetBot**
+Telegram bot that generates high-quality images from text descriptions using AI models.
+[GitHub](https://github.com/mihailmariusiondev/pixel-prophet-bot)
+
+**mihailmariusiondev.github.io**
+Minimalist CV/portfolio built with Astro and Typescript, featuring dark mode and keyboard shortcuts.
+[Live Demo](https://mihailmariusiondev.github.io/) | [GitHub](https://github.com/mihailmariusiondev/mihailmariusiondev.github.io)
+
+**ArkanTranscripter Bot**
+Telegram bot for transcribing YouTube videos and audio messages using OpenAI's GPT-4o mini.
+[GitHub](https://github.com/mihailmariusiondev/arkantranscripter)
+
+**Fixerino Bot**
+Automated link converter for social media platforms to improve Telegram media previews.
+[GitHub](https://github.com/mihailmariusiondev/fixerino)
+
 ## Technical Skills
 
 - **Angular:** Angular 13+, Angular Material, Angular CLI, Modules, Components (standalone), Signals, Services, Directives (Structural/Attribute), Pipes (Built-in/Custom), Dependency Injection, Routing (Router Module, Guards, Resolvers), Template-driven Forms, Reactive Forms, Change Detection Strategies, HttpClient, Interceptors, @ViewChild/@ContentChild, Lifecycle Hooks, Lazy Loading, Content Projection, HostBinding/HostListener, Custom Validators, Route Parameters, ActivatedRoute, Router Events, Environment Configurations, Angular Schematics, ng-container/ng-template
