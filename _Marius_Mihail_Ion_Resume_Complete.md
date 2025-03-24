@@ -98,38 +98,36 @@ _Custom WordPress development and digital optimization_
 
 ## Technical Skills
 
-- **Angular:** Angular 13+, Angular Material, Angular CLI, Modules, Components, Services, Directives (Structural/Attribute), Pipes (Built-in/Custom), Dependency Injection, Routing (Router Module, Guards, Resolvers), Template-driven Forms, Reactive Forms, Change Detection Strategies, HttpClient, Interceptors, @ViewChild/@ContentChild, Lifecycle Hooks, Lazy Loading, Content Projection, HostBinding/HostListener, Custom Validators, Route Parameters, ActivatedRoute, Router Events, Environment Configurations, Angular Schematics, ng-container/ng-template
+- **Angular:** Angular 13+, Angular Material, Angular CLI, Modules, Components (standalone), Signals, Services, Directives (Structural/Attribute), Pipes (Built-in/Custom), Dependency Injection, Routing (Router Module, Guards, Resolvers), Template-driven Forms, Reactive Forms, Change Detection Strategies, HttpClient, Interceptors, @ViewChild/@ContentChild, Lifecycle Hooks, Lazy Loading, Content Projection, HostBinding/HostListener, Custom Validators, Route Parameters, ActivatedRoute, Router Events, Environment Configurations, Angular Schematics, ng-container/ng-template
 - **JavaScript/TypeScript:** ES6+, TypeScript 4+, Strict Typing
 - **Reactive Programming:** RxJS (Observables, Subjects, Operators), Advanced Stream Manipulation, Error Handling, Async Pipe, Custom Operators
 - **UI Development:** Component-Driven Architecture, Dynamic Components, Custom Directives, Component-Driven Design, Scalable UI Systems, Performance Optimization, Accessibility (WCAG Compliance), Responsive Design (Flexbox/Grid)
-
-- **Monorepo Architecture:** NX Workspace, NX Console, Code Sharing, Dependency Graph Analysis, Affected Commands, Modular Code Structure, Shared Libraries, Library Organization, Lazy Loading, Optimize Build Performance
+- **Monorepo Architecture:** NX Workspace, NX Console, Code Sharing, Dependency Graph Analysis, Affected Commands, Modular Code Structure, Shared Libraries, Library Organization, Lazy Loading
 - **Code Quality & Performance:** SOLID Principles, Clean Code Practices, Performance Optimization (Lazy Loading, Change Detection Strategies), Clean Architecture, Performance Profiling, Technical Debt Mitigation
 - **Enterprise Design Patterns:** Dependency Injection, Facade, Domain-Driven Design, Mediator
-- **Design Systems:** Component Libraries, Atomic Design Principles, Theming, Custom UI Components, Component Hierarchies, Atomic Design Methodology, Maintainable Theme Solutions, Theme Injection, Token-Based Theming
-
 - **React Ecosystem:** React 16+, Hooks, Context API, Redux Toolkit, React Router, State Management Libraries, Suspense
 - **CSS Preprocessors & Methodologies:** SCSS/SASS, CSS Modules, Styled Components, CSS Grid, Flexbox, Advanced Nesting, Advanced Layout Systems
 - **UI Frameworks & Libraries:** Bootstrap, Material UI, Tailwind CSS, PrimeNG, Chart.js (if applicable), Custom Theme Integration
-- **Unit Testing:** Jest, Karma, Jasmine, Mocking Strategies, Component Testing, Testing Library
-- **Quality & Analysis Tools:** SonarQube, ESLint, Prettier, Code Coverage Analysis, Static Code Analysis, Linting Configurations, Tree Shaking, Code Splitting, Memory Leak Prevention
-- **Security:** Security Best Practices, Fortify (or similar tools), Authentication/Authorization, Authentication Flows, Fortify Integration, Input Validation, CORS Configuration, Input Sanitization
+- **Unit Testing:** Jest, Karma, Jasmine, Mocking Strategies, Component Testing
+- **Quality & Analysis Tools:** SonarQube, ESLint, Prettier, Code Coverage Analysis, Static Code Analysis, Linting Configurations, Code Splitting, Memory Leak Prevention
+- **Security:** Security Best Practices, Fortify (or similar tools), Authentication/Authorization, Authentication Flows, Input Validation, CORS Configuration, Input Sanitization
 - **Version Control:** Git, Gitflow, Feature Branching, Pull Requests, Code Reviews, Merge Conflict Resolution, Branch Protection Strategies, Code Review Protocols, Gitflow Implementation
-- **CI/CD:** Jenkins, Azure DevOps, TeamCity, GitHub Actions, Automated Build, Test, and Deployment Pipelines, Automated Testing & Deployment, Environment Management, Azure DevOps Pipelines
+- **CI/CD:** Jenkins, Azure DevOps, TeamCity, GitHub Actions, Automated Build, Test, and Deployment Pipelines, Automated Testing & Deployment, Environment Management
 - **APIs:** RESTful APIs, Swagger/OpenAPI, API Design Principles, HTTP/HTTPS, RESTful Service Architecture, API Consumption Patterns, Error Handling, Interceptors
-- **AI-Assisted Development:** GitHub Copilot, ChatGPT, Microsoft Copilot, Cursor, AI-Powered Code Completion, Pair Programming with AI, Automated Documentation, AI-Driven Refactoring
-- **Productivity & IDE:** VS Code, Advanced Debugging, Refactoring Tools, Extensions, VS Code Optimization, Custom Extensions, Productivity Shortcuts
-- **Collaboration & Project Management:** JIRA, Confluence, Notion, Slack, Microsoft Teams, Agile Methodologies, JIRA Project Management, Cross-functional Communication, JIRA Advanced Roadmaps, Azure Boards
+- **AI-Assisted Development:** GitHub Copilot, Cursor, Windsurf, Claude, ChatGPT, Perplexity, AI-Powered Code Completion, Pair Programming with AI, Automated Documentation
+- **Productivity & IDE:** VS Code, Advanced Debugging, Refactoring Tools, Extensions, Productivity Shortcuts
+- **Collaboration & Project Management:** JIRA, Confluence, Notion, Slack, Microsoft Teams, Agile Methodologies, Cross-functional Communication, JIRA Advanced Roadmaps, Azure Boards
 
 ## Certifications
 
-- Angular (Intermediate) Certificate - HackerRank, January 2024
-- Angular (Basic) Certificate - HackerRank, January 2024
-- JavaScript (Intermediate) Certificate - HackerRank, January 2024
-- JavaScript (Basic) Certificate - HackerRank, January 2024
-- Super Ninja - Ninja Talent, March 2023
-- Angular Level 2 Certification - Interstate 21, December 2022
-- API OWNER - APIAddicts, October 2022
+- Angular (Intermediate) Certificate - HackerRank, January 2024 | [Credential](https://www.hackerrank.com/certificates/958d428d95f0)
+- Angular (Basic) Certificate - HackerRank, January 2024 | [Credential](https://www.hackerrank.com/certificates/6d5ed4bee302)
+- JavaScript (Intermediate) Certificate - HackerRank, January 2024 | [Credential](https://www.hackerrank.com/certificates/677c70b204a9)
+- JavaScript (Basic) Certificate - HackerRank, January 2024 | [Credential](https://www.hackerrank.com/certificates/1c3f07549dbf)
+- English Proficiency Test (C2) - goFLUENT, March 2025 | [Credential](https://drive.google.com/file/d/1Cb0RBeq6km0v-pxp5d-WE2FCIoa3eYdD/view?usp=drive_link)
+- Super Ninja - Ninja Talent, March 2023 | [Credential](https://www.credential.net/2168ae97-80a0-4e8b-87d6-43cb6f378390)
+- Angular Level 2 Certification - Interstate 21, December 2022 | [Credential](https://interstate21.com/certificate/?code=3L11N3E)
+- API OWNER - APIAddicts, October 2022 | [Credential](https://www.credential.net/17bd70ea-acda-4bf9-a965-3b55e47b682b)
 
 ## Education
 
@@ -141,7 +139,7 @@ _Custom WordPress development and digital optimization_
 
 - Spanish: Native
 - Romanian: Native
-- English: Full Professional Proficiency (C2)
+- English: Full Professional Proficiency (C2) [Certified]
 
 ## Recognition
 
