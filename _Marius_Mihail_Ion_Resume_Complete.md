@@ -6,7 +6,7 @@ Zaragoza, Spain | mihailmariusion@gmail.com | +34 662 439 252 | LinkedIn: [mariu
 
 ## Professional Summary
 
-Highly proficient Senior Front-End Developer with 7+ years of experience specializing in Angular and modern web technologies, focused on delivering high-quality, scalable solutions. Proven ability to lead technical initiatives, optimize development workflows, and mentor junior developers. Extensive experience with monorepo architecture (NX) for large-scale enterprise applications. Adept at translating Figma designs into maintainable code. Strong advocate for clean code, performance optimization, and comprehensive unit testing (Jest, Karma). Experienced in leveraging AI tools. Excellent communication and collaboration skills. Fluent in Spanish, Romanian, and English.
+Highly proficient Senior Front-End Developer with 7+ years of experience specializing in Angular and modern web technologies, including cloud-based applications with AWS. Focused on delivering high-quality, scalable solutions. Proven ability to lead technical initiatives, optimize development workflows, and mentor junior developers. Extensive experience with monorepo architecture (NX) for large-scale enterprise applications. Adept at translating Figma designs into maintainable code. Strong advocate for clean code, performance optimization, and comprehensive unit testing (Jest, Karma). Experienced in leveraging AI tools. Excellent communication and collaboration skills. Fluent in Spanish, Romanian, and English.
 
 ## Professional Experience
 
@@ -66,15 +66,16 @@ _Rapid adaptation to Angular and React frameworks_
 
 **Mid-Level Front-End Developer (Angular)** | July 2021 - October 2022 | Madrid, Spain
 
-_Focused on reusable Angular solutions for agriculture sector_
+_Focused on reusable Angular solutions for agriculture sector with AWS cloud integration_
 
-- Built reusable Angular components for a large-scale agricultural sector application.
-- Created high-quality modules and services, enhancing app functionality globally.
+- Built reusable Angular components for a large-scale agricultural sector application using serverless architecture.
+- Created high-quality modules and services, working with AWS Cognito for authentication flows.
 - Used Angular Flex Layout and Material for responsive, user-friendly designs.
-- Managed REST API integrations and reactive forms for seamless data handling.
+- Developed Python code for AWS Lambda functions and interacted with API Gateway endpoints.
+- Gained hands-on experience with AWS services (S3, CloudFront, CloudWatch Logs, SQS/SNS).
+- Worked within IAM security boundaries in a serverless cloud environment.
 - Engaged in English client meetings and improved project documentation clarity.
 - Trained new team members, boosting efficiency and knowledge sharing in team.
-- Contributed to a major international client, delivering impactful solutions.
 
 ### Freelance Web Developer
 
@@ -132,6 +133,7 @@ Automated link converter for social media platforms to improve Telegram media pr
 - **UI Frameworks & Libraries:** Bootstrap, Material UI, Tailwind CSS, PrimeNG, Chart.js (if applicable), Custom Theme Integration
 - **Unit Testing:** Jest, Karma, Jasmine, Mocking Strategies, Component Testing
 - **Quality & Analysis Tools:** SonarQube, ESLint, Prettier, Code Coverage Analysis, Static Code Analysis, Linting Configurations, Code Splitting, Memory Leak Prevention
+- **Cloud & DevOps:** AWS (Lambda, Cognito, API Gateway, S3, CloudFront, CloudWatch, SQS/SNS), Serverless Architecture, CI/CD Pipelines, Infrastructure as Code
 - **Security:** Security Best Practices, Fortify (or similar tools), Authentication/Authorization, Authentication Flows, Input Validation, CORS Configuration, Input Sanitization
 - **Version Control:** Git, Gitflow, Feature Branching, Pull Requests, Code Reviews, Merge Conflict Resolution, Branch Protection Strategies, Code Review Protocols, Gitflow Implementation
 - **CI/CD:** Jenkins, Azure DevOps, TeamCity, GitHub Actions, Automated Build, Test, and Deployment Pipelines, Automated Testing & Deployment, Environment Management
