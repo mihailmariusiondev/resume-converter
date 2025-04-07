@@ -6,15 +6,15 @@ Zaragoza, Spain | mihailmariusion@gmail.com | +34 662 439 252 | LinkedIn: [mariu
 
 ## Professional Summary
 
-Senior Front-End Developer (7+ years) specializing in Angular and modern web technologies. Expertise in monorepo architecture (NX), technical leadership, scalable solutions, clean code, and performance optimization. Experience with cloud services (AWS). Strong unit testing advocate (Jest, Karma). Excellent communicator (Spanish, Romanian, English).
+Senior Front-End Developer (7+ years) specializing in Angular and modern web technologies, including cloud-based applications with AWS. Expertise in monorepo architecture (NX), technical leadership, scalable solutions, clean code, and performance optimization. Strong unit testing advocate (Jest, Karma). Excellent communicator (Spanish, Romanian, English).
 
 ## Professional Experience
 
-- **Avanade Spain:** Senior Front-End Analyst (Angular) (March 2024 - Present). Led technical direction for enterprise solutions. Key Achievement: UNIR 'Mateo' Platform Technical Lead - defined scalable architecture, enhanced code quality.
-- **Vermont Solutions:** Senior Front-End Developer (Angular) (Jan 2023 - March 2024). Led teams of up to 5 developers. Projects: Santander Transaction Portal (35% response time improvement), Mobile Banking App, Real Estate Portal.
-- **CloudAPPi:** Mid-Level Front-End Developer (Angular, React) (Nov 2022 - Dec 2022). Adapted quickly between frameworks in fast-paced environment.
-- **ENZO:** Mid-Level Front-End Developer (Angular) (July 2021 - Oct 2022). Built reusable Angular components for large-scale agricultural application using AWS cloud services.
-- **Freelance Web Developer:** WordPress Developer (July 2020 - June 2021). Custom sites, SEO, security practices.
+- **Avanade Spain:** Senior Front-End Analyst (Angular) (March 2024 - Present). Led technical direction for enterprise solutions. Technical Lead for UNIR 'Mateo' Platform.
+- **Vermont Solutions:** Senior Front-End Developer (Angular) (Jan 2023 - March 2024). Led teams of up to 5 developers. Developed Santander Transaction Portal, Mobile Banking App, and Real Estate Portal.
+- **CloudAPPi:** Mid-Level Front-End Developer (Angular, React) (Nov 2022 - Dec 2022). Rapidly adapted between frameworks in fast-paced environment with multiple project transitions.
+- **ENZO:** Mid-Level Front-End Developer (Angular) (July 2021 - Oct 2022). Built reusable Angular components for agricultural sector application using serverless AWS architecture.
+- **Freelance Web Developer:** WordPress Developer (July 2020 - June 2021). Custom sites, SEO, etc.
 
 ## Previous Experience
 
@@ -24,13 +24,13 @@ Senior Front-End Developer (7+ years) specializing in Angular and modern web tec
 
 ## Technical Skills
 
-- **Angular:** Angular 13+, Material, Components, Services, Signals, Directives, Pipes, Routing, Forms
-- **JavaScript/TypeScript:** ES6+, TypeScript 4+, RxJS, Observables, Operators
-- **Architecture:** NX Monorepo, SOLID, Clean Architecture, Enterprise Design Patterns
-- **Cloud & DevOps:** AWS (Lambda, Cognito, API Gateway, S3, CloudFront, CloudWatch, SQS/SNS), Serverless Architecture
-- **UI:** Component-Driven Design, Responsive (Flexbox/Grid), SCSS/SASS, Bootstrap, Material UI
-- **Testing:** Jest, Karma, Jasmine, Code Coverage Analysis
-- **Tools:** Git, VS Code, AI-Assisted Development (GitHub Copilot, Cursor, ChatGPT)
+- **Angular:** Angular 13+, Material, Components, Services, Signals, Directives, Pipes, Routing, Forms.
+- **JavaScript/TypeScript:** ES6+, TypeScript 4+, RxJS, Observables, Operators.
+- **Architecture:** NX Monorepo, SOLID, Clean Architecture, Enterprise Design Patterns.
+- **Cloud & DevOps:** AWS (Lambda, Cognito, API Gateway, S3, CloudFront, CloudWatch, SQS/SNS), Serverless Architecture.
+- **UI:** Component-Driven Design, Responsive (Flexbox/Grid), SCSS/SASS, Bootstrap, Material UI.
+- **Testing:** Jest, Karma, Jasmine, Code Coverage Analysis.
+- **Tools:** Git, VS Code, AI Development Tools (GitHub Copilot, Cursor, ChatGPT).
 
 ## Certifications
 
